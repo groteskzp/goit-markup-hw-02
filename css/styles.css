@@ -54,7 +54,7 @@ address {
     color: #F4F4FD;
     text-align: center;
 }
-.hero_button {
+.hero-button {
     background-color: #4D5AE5;
     color: #F4F4FD;
     border-radius: 4px;
@@ -69,7 +69,7 @@ address {
     letter-spacing: 0.04em;
     color: #fff;
 }
-button:hover {
+.hero-button:hover {
     background-color: #404BBF;
 }
 .team {
@@ -100,11 +100,9 @@ h3 {
     color: #2e2f42;
 }
 p{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
-    font-style: normal;
 }
 ul {
     list-style: none;

@@ -1,0 +1,83 @@
+
+body{
+    font-family: Roboto;
+    color: #434455;
+    background-color: #ffffff;
+}
+span {
+    color: #4D5AE5;
+    text-transform: uppercase;
+}
+footer>a,
+header>a {
+    text-transform: uppercase;
+}
+a {
+    color: #2e2f42;
+    text-decoration: none;
+}
+a:hover{
+    color: #404BBF;
+    text-decoration: underline;
+}
+a:active,
+a:focus {
+    color: #4D5AE5;
+}
+footer a {
+    color: #F4F4FD;
+}
+address {
+    color: #434455;
+}
+button {
+    background-color: #4D5AE5;
+    color: #F4F4FD;
+    border-radius: 4px;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #fff;
+}
+button:hover {
+    background-color: #404BBF;
+}
+h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #2e2f42;
+}
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+}
+ul {
+    list-style: none;
+}
+#hero {
+     background-color: #2e2f42;
+     color: #F4F4FD;
+}
+#team {
+    background-color: #f4f4fd;
+}
+footer {
+    background-color: #2e2f42;
+    color: #F4F4FD;
+}
+

@@ -27,13 +27,13 @@ a {
     color: #2e2f42;
     text-decoration: none;
 }
-a:hover {
+a:hover,
+a:focus {
+    color: #404BBF;
+}
+a:active{
     color: #404BBF;
     text-decoration: underline;
-}
-a:active,
-a:focus {
-    color: #4D5AE5;
 }
 footer a {
     color: #F4F4FD;
@@ -52,15 +52,10 @@ address {
 .hero {
     background-color: #2e2f42;
     color: #F4F4FD;
-    text-align: center;
 }
 .hero-button {
     background-color: #4D5AE5;
     color: #F4F4FD;
-    border-radius: 4px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
     cursor: pointer;
     font-weight: 500;
@@ -69,14 +64,24 @@ address {
     letter-spacing: 0.04em;
     color: #fff;
 }
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 .team {
     background-color: #f4f4fd;
+}
+.team li {
+    background-color: #ffffff;
+}
+.team p,
+.team h2 {
     text-align: center;
 }
-.portfolio {
+.team h3 {
+    text-align: center;
+}
+.portfolio h2{
     text-align: center;
 }
 h1{
@@ -92,12 +97,14 @@ h2 {
     font-size: 36px;
     line-height: 1.11;
     color: #2e2f42;
+    
 }
 h3 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.20;
     color: #2e2f42;
+
 }
 p{
     font-size: 16px;
